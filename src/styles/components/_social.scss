@@ -1,0 +1,20 @@
+.social {
+   position: absolute;
+   left: 50px;
+   bottom: 50px;
+   display: flex;
+
+   a {
+      margin: 6px 12px;
+
+      &:hover i {
+         color: #17d1ac;
+         transition: all ease 0.5s;
+      }
+   }
+
+   i {
+      color: rgba(18, 17, 17, 0.4);
+      font-size: 14px;
+   }
+}
