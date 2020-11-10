@@ -1,5 +1,5 @@
 import Name from "components/Name";
-import Social from "components/Social";
+// import Social from "components/Social";
 import React from "react";
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
          {/* Down Arroy */}
          {/* <div className="black-line"></div> */}
          {/* Social */}
-         <Social />
+         {/* <Social /> */}
       </>
    );
 };

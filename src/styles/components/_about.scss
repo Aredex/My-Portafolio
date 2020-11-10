@@ -48,4 +48,25 @@
          transition: all ease 0.3s;
       }
    }
+
+   .about__contact {
+      font-size: 3rem;
+      color: #17d1ac;
+   }
+
+   .about__contact-info {
+      img {
+         height: 2rem;
+      }
+
+      .about__info {
+         display: flex;
+         align-items: center;
+         margin-left: 4rem;
+
+         p {
+            margin-left: 1rem;
+         }
+      }
+   }
 }

@@ -47,6 +47,33 @@ const AboutScreen = () => {
                </Link>
             </div>
             {/* <button>View More Details</button> */}
+
+            <h2 className="about__contact">Contacto</h2>
+
+            <div className="about__contact-info">
+               <Link to="#">
+                  <div className="about__info">
+                     <img src="/images/icons/gmail.svg" alt="gmail" />
+                     <p>pacuestar@gmail.com</p>
+                  </div>
+               </Link>
+               <a
+                  href="https://www.linkedin.com/in/pacuestar/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <div className="about__info">
+                     <img src="/images/icons/linkedin.svg" alt="linkedin" />
+                     <p>/pacuestar</p>
+                  </div>
+               </a>
+               <Link to="#">
+                  <div className="about__info">
+                     <img src="/images/icons/wp.svg" alt="telefono" />
+                     <p>+57 300 264 9626</p>
+                  </div>
+               </Link>
+            </div>
          </div>
 
          <div className="about__model">
