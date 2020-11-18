@@ -1,72 +1,78 @@
 #about {
-   width: 100%;
-   height: calc(100vh - 30px);
-   background-color: #161616;
-   box-sizing: border-box;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 50px 5% 0px 5%;
-   position: relative;
+  width: 100%;
+  height: calc(100vh - 30px);
+  background-color: #161616;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5% 0px 5%;
+  position: relative;
 }
 
 .about__text {
-   width: 50%;
+  width: 50%;
 
-   h1 {
-      font-size: 5rem;
-      color: #17d1ac;
-   }
+  h1 {
+    font-size: 5rem;
+    color: #17d1ac;
+  }
 
-   h2 {
-      font-size: 3rem;
-      color: #ffffff;
-      font-weight: 400;
-   }
+  h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 400;
+  }
 
-   h1,
-   h2 {
-      margin: 0px;
-      padding: 0px;
-   }
+  h1,
+  h2 {
+    margin: 0px;
+    padding: 0px;
+  }
 
-   p {
-      font-size: 1.2rem;
-      color: rgba(255, 255, 255, 0.9);
-   }
+  p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
 
-   button {
-      width: 180px;
-      height: 40px;
-      border-radius: 20px;
-      border: none;
-      outline: none;
-      background-color: #17d1ac;
+  button {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #17d1ac;
 
-      &:hover {
-         background-color: #ffffff;
-         transition: all ease 0.3s;
+    &:hover {
+      background-color: #ffffff;
+      transition: all ease 0.3s;
+    }
+  }
+
+  .about__contact {
+    font-size: 3rem;
+    color: #17d1ac;
+  }
+
+  .about__contact-info {
+    img {
+      height: 2rem;
+    }
+
+    .about__info {
+      display: flex;
+      align-items: center;
+      margin-left: 4rem;
+
+      p {
+        margin-left: 1rem;
       }
-   }
+    }
+  }
+}
 
-   .about__contact {
-      font-size: 3rem;
-      color: #17d1ac;
-   }
-
-   .about__contact-info {
-      img {
-         height: 2rem;
-      }
-
-      .about__info {
-         display: flex;
-         align-items: center;
-         margin-left: 4rem;
-
-         p {
-            margin-left: 1rem;
-         }
-      }
-   }
+.about__model {
+  img {
+    height: 500px;
+  }
 }
